@@ -21,3 +21,15 @@
     ```
     $ mvn archetype:generate -DgroupId=com.lti -DartifactId=app-2 -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart
     ```
+
+3.  Convert existing maven project into "git repository"
+
+    ```
+    $ cd \repos\app-1
+    $ git status
+    ## Expected: an error!
+    $ git init .
+    $ echo "target\" > .gitignore
+    $ git add .
+    $ git commit -m "Initial Project"
+    ```
