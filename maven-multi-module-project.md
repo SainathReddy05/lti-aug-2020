@@ -30,6 +30,7 @@ ProjectDirectory/
     Replace default "packaging" to "pom"
     save and close the file
     $ rmdir /S /Q src
+    $ rmdir /S /Q target
     $ mvn validate
     ```
 
