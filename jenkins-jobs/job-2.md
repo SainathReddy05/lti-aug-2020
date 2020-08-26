@@ -21,7 +21,7 @@ Build-Environment:
 Build:
     Invoke-top-level-maven-target:
         Maven-Version: M2
-        Goals:  -DskipTests clean package
+        Goals:  package
 
 Post-Build:
     archive-the-artifacts:
