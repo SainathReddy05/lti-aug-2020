@@ -20,4 +20,19 @@
 
     Enter User credentials: manager/pass1234
 
+5.  Launch jenkins and visit `job2`
     
+    http://localhost:8080/job/Job2/
+
+    Download the last successful Artifacts: `ROOT.war`
+
+6.  Or get it from folder location
+    `C:\Users\mahendra\.jenkins\jobs\Job2\builds\5\archive\target`
+
+7.  Go back to tomcat manager portal (step #4.2)
+    And, upload `ROOT.war` and deploy
+
+8.  Go back to Tomcat (Step #4.1) and reload the page.
+
+9.  You should get the sample application home page.
+
